@@ -1,11 +1,11 @@
 class Box < Formula
   desc "A Next-Generation Builder for Docker Images"
   homepage "https://erikh.github.io/box/"
-  url "https://github.com/erikh/box/releases/download/v0.4.1/box-0.4.1.darwin.gz"
-  sha256 "4e7241614b2f091ab3f1a19d0707314db060717ae555f2c47c8c8374c4621aad"
+  url "https://github.com/erikh/box/releases/download/v0.4.2/box-0.4.2.darwin.gz"
+  sha256 "40d2561b197a9e4460ba02f7499ee2c52a19a2bfe38d9baa3aafc4d4e883f5bc"
 
   def install
-    mv "box-0.4.1.darwin", "box"
+    mv "box-0.4.2.darwin", "box"
     bin.install "box"
   end
   test do
