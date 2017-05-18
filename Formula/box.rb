@@ -1,5 +1,5 @@
 class Box < Formula
-  @@boxVersion = "0.5.0"
+  @@boxVersion = "0.5.2"
 
   desc "A Next-Generation Builder for Docker Images"
   homepage "https://box-builder.github.io/box/"
