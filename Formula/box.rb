@@ -1,10 +1,10 @@
 class Box < Formula
-  @@boxVersion = "0.5.4"
+  @@boxVersion = "0.5.5"
 
   desc "A Next-Generation Builder for Docker Images"
   homepage "https://box-builder.github.io/box/"
   url "https://github.com/box-builder/box/releases/download/v#{@@boxVersion}/box-#{@@boxVersion}.portable.gz"
-  sha256 "105f69e6c17f4901e3163fcd084a8d375e1f656587c00524f83f433ef6b41d16"
+  sha256 "a72152eb9f6a2aa289b08198be22c2403b690d6c7221c880a1cb5ae05a33bb77"
 
   def install
     mv "box-#{@@boxVersion}.portable", "box"
